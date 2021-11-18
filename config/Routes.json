@@ -1,0 +1,78 @@
+{
+    "/": {
+        "controller": "DashBoardController",
+        "action": "dashBoard"
+    },
+    "/productos": {
+        "controller": "ProductosController",
+        "action": "productos"
+    },
+    "/clientes": {
+        "controller": "ClientesController",
+        "action": "clientes"
+    },
+    "/clienteDetalle": {
+        "controller": "clienteDetalleController",
+        "action": "clienteDetalle"
+    },
+    "/updateProducto": {
+        "controller": "ProductosUpdateController",
+        "action": "updateProductos"
+    },
+    "/insertProducto": {
+        "controller": "ProductosInsertController",
+        "action": "insertProductos"
+    },
+    "/deleteProducto": {
+        "controller": "ProductosDeleteController",
+        "action": "deleteProductos"
+    },
+    "/insertCliente": {
+        "controller": "clienteInsertController",
+        "action": "clienteInsert"
+    },
+    "/updateCliente": {
+        "controller": "clienteUpdateController",
+        "action": "clienteUpdate"
+    },
+    "/deleteCliente": {
+        "controller": "clienteDeleteController",
+        "action": "clienteDelete"
+    },
+    "/empleados": {
+        "controller": "EmpleadosController",
+        "action": "empleados"
+    },
+    "/detalleEmpleados": {
+        "controller": "EmpleadosDetalleController",
+        "action": "detalleEmpleados"
+    },
+    "/insertEmpleado": {
+        "controller": "EmpleadosInsertController",
+        "action": "insertEmpleados"
+    },
+    "/updateEmpleado": {
+        "controller": "EmpleadosUpdateController",
+        "action": "updateEmpleados"
+    },
+    "/deleteEmpleado": {
+        "controller": "EmpleadosDeleteController",
+        "action": "deleteEmpleados"
+    },
+    "/pedidos": {
+        "controller": "PedidosController",
+        "action": "pedidos"
+    },
+    "/pedidoDetalle": {
+        "controller": "PedidosDetalleController",
+        "action": "detallePedidos"
+    },
+    "/insertPedidos": {
+        "controller": "PedidosInsertController",
+        "action": "insertPedidos"
+    },
+    "/updatePedidos": {
+        "controller": "PedidosUpdateController",
+        "action": "updatePedidos"
+    }
+}
